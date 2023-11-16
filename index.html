@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Quản lý Sinh viên</title>
+</head>
+<body>
+    <div id="app">
+        <h1>Quản lý Sinh viên</h1>
+        <form id="studentForm">
+            <label for="name">Họ và tên:</label>
+            <input type="text" id="name" required>
+            <label for="id">Mã sinh viên:</label>
+            <input type="text" id="id" required>
+            <button type="button" onclick="addStudent()">Thêm sinh viên</button>
+        </form>
+        <div id="studentList"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
